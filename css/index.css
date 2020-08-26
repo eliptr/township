@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+html, body {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  border: 0px;
+}
+
+canvas {
+  background-color: #2B2E36;
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  padding-bottom: 0px;
+  overflow: 0px;
+}
+
+.fieldt {
+  position: absolute;
+  left: 315px;
+  top: 570px;
+  width: 180px;
+  height: 45px;
+  background-color: #fff;
+  transform: rotate(180deg);
+  transform-origin: left;
+}
+
+@keyframes scrops {
+  0%   {width: 180px;}
+  100% {width: 1px;}
+}
+
+.scropsclass {
+  animation-name: scrops;
+  animation-duration: 1s;
+}
+
+.field1b {
+  position: absolute;
+  left: 50px;
+  top: 630px;
+  width: 60px;
+  height: 60px;
+  background-color: #2EB4A5;
+}
